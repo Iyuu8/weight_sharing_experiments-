@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Datasets and large binary files (>100MB exceeds GitHub push limits)
+data/
+*.tar.gz
+*.tar
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and scratch outputs
+*.log
+scratch/
